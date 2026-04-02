@@ -1,4 +1,4 @@
-# @openclaw/azure-dab
+# openclaw-azure-dab
 
 Get a free SQL database with a REST + GraphQL + MCP API in minutes. No Azure experience needed.
 
