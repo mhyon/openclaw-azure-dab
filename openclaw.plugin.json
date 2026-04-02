@@ -1,0 +1,25 @@
+{
+  "id": "azure-dab",
+  "name": "Azure Data API Builder",
+  "description": "Provision free Azure SQL databases and expose them via Data API Builder",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "projectDir": {
+        "type": "string",
+        "description": "Default directory for DAB projects (defaults to workspace)"
+      },
+      "defaultRegion": {
+        "type": "string",
+        "description": "Azure region for new resources (default: westus2)"
+      },
+      "dabPort": {
+        "type": "number",
+        "description": "Port for DAB runtime (default: 5000)"
+      }
+    }
+  },
+  "skills": ["./skills"]
+}
